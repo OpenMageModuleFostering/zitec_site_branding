@@ -1,0 +1,5 @@
+<?php if ($this->getBranding() && $this->getBranding()->getUrl()) : ?>
+    <div class="branding-link-below">
+        <a href="<?php print $this->getBranding()->getUrl() ?>" class="branding-link">&nbsp;</a>
+    </div>
+<?php endif; ?>

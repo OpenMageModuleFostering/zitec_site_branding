@@ -1,0 +1,12 @@
+.branding-link-below {
+	position: relative;
+	z-index: 1;
+	width: 100%;	
+}
+.branding-link-below a, .branding-link-below a:hover {
+	min-height: 890px;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+}

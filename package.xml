@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+    <name>Zitec_Site_Branding</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Offers the possibility to change the site background from the admin interface: flexible, easy to use.</summary>
+    <description>The site branding can be edited from admin. For a branding, the following settings are available:&#xD;
+&#xD;
+- background image&#xD;
+- state: active or inactive&#xD;
+- store views&#xD;
+- URL to the page the branding may promote&#xD;
+- start date&#xD;
+- end date&#xD;
+&#xD;
+All fields are mandatory, with the exception of URL field.</description>
+    <notes>This is the first stable release of the official Zitec Site Branding extension for Magento. It should work for all versions from Magento 1.7 upwards.</notes>
+    <authors><author><name>Alexandru Enciu</name><user>alexenciu</user><email>alexandru.enciu@zitec.ro</email></author><author><name>Adina Nichitean</name><user>adinanichitean</user><email>adinanichitean@gmail.com</email></author></authors>
+    <date>2013-07-26</date>
+    <time>11:52:22</time>
+    <contents><target name="magecommunity"><dir name="Zitec"><dir name="Branding"><dir name="Block"><dir name="Adminhtml"><dir name="Branding"><dir name="Edit"><file name="Form.php" hash="5040e2111aa9184249ba8df84b0fbff7"/></dir><file name="Edit.php" hash="7f3cdf360c6da9a0ed0b162678ae55fe"/><file name="Grid.php" hash="8852b614d642e6fc856bf0745877285a"/></dir><file name="Branding.php" hash="1c271e903779651bf3426ef43e78dd65"/><dir name="Widget"><dir name="Grid"><dir name="Column"><dir name="Renderer"><file name="Date.php" hash="2c95f17ca869edec9aac64acf517996e"/></dir></dir></dir></dir></dir><file name="Branding.php" hash="0bba8bc9b7ae288b16dd6f185a3b43a1"/></dir><dir name="Helper"><file name="Data.php" hash="fa76d47b32fb1c8ca1254a7575bd2550"/><dir name="System"><file name="Store.php" hash="9b3aac0f9b00b11aca687f9a618e4bf5"/></dir></dir><dir name="Model"><file name="Branding.php" hash="ece3fad08f58371f3fb7bf75b9c3e68d"/><dir name="Resource"><dir name="Branding"><file name="Collection.php" hash="c6b61d885bb0edc037058a3bae2cd616"/></dir><file name="Branding.php" hash="e1461eb5ec644e8c24c097ad903b0672"/><file name="Setup.php" hash="3509aafe3572bbabb72b92e4a23024c8"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="BrandingController.php" hash="63557ef6ed49c8eff63c4d9988bdf329"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7ed04eeb227099cc09fa21494f558c70"/><file name="config.xml" hash="46f17618d6be03a0938b404b55da230c"/></dir><dir name="sql"><dir name="zitec_branding_setup"><file name="install-0.1.0.php" hash="60ca96b0bf15221d25aa2929f7ac4d84"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="z_branding.xml" hash="5076878f4a334985e8cecc42388618a8"/></dir><dir name="template"><dir name="z_branding"><file name="branding.phtml" hash="94a281cca91157a38fcf97264e3a02c3"/></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="z_branding.xml" hash="45879296ae63c8be8dcc9da817e0371d"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="z_branding"><file name="z_branding.css" hash="0064c9953ec7efc1a381e6a45e1b2825"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Zitec_Branding.xml" hash="cd5f34a956056afaf9460d5ef014e0fd"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.4.0</max></php><package><name>Magento_Core_Modules</name><channel>community</channel><min>1.7.0.0</min><max>1.7.0.2</max></package></required></dependencies>
+</package>

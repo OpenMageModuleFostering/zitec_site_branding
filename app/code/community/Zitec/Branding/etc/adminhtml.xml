@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<menu>
+		<zitec>
+			<title>Zitec</title>
+			<sort_order>99</sort_order>
+			<children>
+				<zitec_branding translate="title" module="zitec_branding">
+					<title>Brandings</title>
+					<sort_order>1</sort_order>
+					<action>adminhtml/branding</action>
+				</zitec_branding>
+			</children>
+		</zitec>
+	</menu>
+	<acl>
+        <resources>
+            <admin>
+                <children>
+                    <zitec>
+                        <children>
+                            <zitec_branding>
+                                <title>Brandings</title>
+                                <sort_order>0</sort_order>
+                            </zitec_branding>
+                        </children>
+                    </zitec>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

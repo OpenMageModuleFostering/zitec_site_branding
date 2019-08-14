@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <adminhtml_branding_index>
+        <reference name="content">
+            <block type="zitec_branding/adminhtml_branding" name="zitec_branding" />
+        </reference>
+    </adminhtml_branding_index>
+	<adminhtml_branding_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="zitec_branding/adminhtml_branding_grid" name="zitec_branding_grid" />
+        </block>
+    </adminhtml_branding_grid>
+    <adminhtml_branding_edit>
+        <reference name="content">
+            <block type="zitec_branding/adminhtml_branding_edit" name="zitec_branding.edit" />
+        </reference>
+    </adminhtml_branding_edit>
+    <adminhtml_branding_new>
+       <update handle="adminhtml_branding_edit" />
+    </adminhtml_branding_new>
+</layout>

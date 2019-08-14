@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Zitec_Branding>
+            <version>0.1.0</version>
+            <codePool>community</codePool>
+            <active>true</active>
+            <depends>
+                <Mage_Adminhtml />
+            </depends>
+        </Zitec_Branding>
+    </modules>
+</config>

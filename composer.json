@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Zitec_Site_Branding",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Offers the possibility to change the site background from the admin interface: flexible, easy to use.",
+    "authors": [
+    {
+        "name": "Alexandru Enciu",
+        "email": "alexandru.enciu@zitec.ro"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
