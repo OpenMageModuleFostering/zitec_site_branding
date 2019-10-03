@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Zitec_Site_Branding",
+    "name": "openmage-module-fostering\/zitec_site_branding",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Offers the possibility to change the site background from the admin interface: flexible, easy to use.",
     "authors": [
